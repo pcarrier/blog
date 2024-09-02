@@ -1,0 +1,17 @@
+---
+layout: layout.html
+title: A blog about nothing
+---
+
+<main>
+  {% for post in collections.post reversed %}
+  <h2>
+    <time>{{post.date | dateDisplay}}:</time>
+    <a href="{{ post.url }}"> {{ post.data.title }}</a>
+  </h2>
+  {% endfor %}
+</main>
+<footer>
+  by <a href="https://pcarrier.com">Pierre Carrier</a> from
+  <a href="https://github.com/pcarrier/blog">git</a>
+</footer>
