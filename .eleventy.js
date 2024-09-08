@@ -1,5 +1,4 @@
 import syntaxhighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import asciidoc from "eleventy-plugin-asciidoc";
 import minifier from "html-minifier-terser";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
@@ -12,7 +11,6 @@ async function htmlmin(content) {
   });
 }
 export default function (cfg) {
-  cfg.addPlugin(asciidoc);
   cfg.addPlugin(syntaxhighlight);
   cfg.addPlugin(eleventyImageTransformPlugin, {
     formats: ["avif", "jpeg"],
