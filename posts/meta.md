@@ -1,5 +1,5 @@
 ---
-title: "A little meta"
+title: A little meta
 date: 2024-09-10
 ---
 
