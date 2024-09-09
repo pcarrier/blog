@@ -1,4 +1,4 @@
-import syntaxhighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import minifier from "html-minifier-terser";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
@@ -11,7 +11,7 @@ async function htmlmin(content) {
   });
 }
 export default function (cfg) {
-  cfg.addPlugin(syntaxhighlight);
+  cfg.addPlugin(syntaxHighlight);
   cfg.addPlugin(eleventyImageTransformPlugin, {
     formats: ["avif", "jpeg"],
     widths: ["512", "1024", "2048", "auto"],
