@@ -1,17 +1,17 @@
 ---
 title: errnos
 date: 2011-05-21
+prism: true
 ---
 
 As a Technical Support Engineer at Red Hat, I got to read a lot of logs, error messages and code. One of my pain points was errnos.
 
-They rely on [magic numbers](http://en.wikipedia.org/wiki/Magic_number_(programming)), which is perfectly understandable given their use cases (eg return values for system calls). But obviously, we're not going to be using magic numbers everywhere, hence they are defined as [constants](http://en.wikipedia.org/wiki/Constant_(programming)) for the C preprocessor.
+They rely on [magic numbers](<http://en.wikipedia.org/wiki/Magic_number_(programming)>), which is perfectly understandable given their use cases (eg return values for system calls). But obviously, we're not going to be using magic numbers everywhere, hence they are defined as [constants](<http://en.wikipedia.org/wiki/Constant_(programming)>) for the C preprocessor.
 
 Numbers are not very user-friendly, so why not display them in a human-readable format when a human might want to read it? `strerror` comes to the rescue! Unfortunately, not every piece of code presenting errors to the user or administrator uses it. There are various reasons for that:
 
 - It is a libc function, and the Linux kernel didn't implement something similar (or most of us aren't aware of its existence);
 - The length of the (hexa)decimal representation of an integer is bound, whereas the strings it returns are not, which can make memory allocation for log messages trickier.
-
 
 `strerror` strings are very readable; for example, it will turn `ENOMEM` into Cannot allocate memory under OSX. I will not lose too much of your time on the annoyances caused by weird usages of errnos, though I encountered quite a few already: they usually do not delay troubleshooting too much if you're not too trusting. For example `ENOTDIR`, represented by glibc's `strerror` as Not a directory, indicates when returned by `keyctl_search(3)` that one of the keyrings is a valid key that isn't a keyring.
 
@@ -21,8 +21,7 @@ I'd love to give you a simple table listing each errno constant, its representat
 
 - Probably mostly for historical reasons, the association between constants and integer values is not common between operating systems; worse, they can also change between hardware architectures.
 - The `strerror` representation varies between systems, in particular depending on the libc being used.
-- Some operating systems use the same value for multiple constants. This is not a bug *per se* as long as no standard function can return those different constants for different reasons. On my systems, those are `EDEADLK` and `EDEADLOCK` under Linux, `EAGAIN` and `EWOULDBLOCK` under OSX.
-
+- Some operating systems use the same value for multiple constants. This is not a bug _per se_ as long as no standard function can return those different constants for different reasons. On my systems, those are `EDEADLK` and `EDEADLOCK` under Linux, `EAGAIN` and `EWOULDBLOCK` under OSX.
 
 However, this led to the creation of a simple command-line utility, [`errnos`](https://github.com/pcarrier/stuff/blob/master/sys/errnos.c). Build and run it on the system you investigate, or a similar one (same operating system, same libc, same CPU architecture), and you will get something you can store and `grep` at will. It could also make an ironic wallpaper for your child's room, but don't blame me if they have nightmares of production systems going down.
 
@@ -32,7 +31,7 @@ The first column gives the number in its decimal representation, the second in h
 
 To close this article, here is the end of its output on my Mac:
 
-```
+```shell
 $ errnos | tail
 Stopped looking at 1128
 99    0x63    "Not a STREAM"
