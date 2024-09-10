@@ -14,11 +14,11 @@ My configuration hasn't grown much since, but a few quality of life improvements
 
 ## Installs on Apple Silicon macOS
 
-Let's assume you're starting from scratch and want to adopt all my suggestions. Open Terminal and run the following:
+Let's assume you're starting from scratch and want to adopt all my suggestions. Open `Terminal.app` and run the following:
 
 ```shell
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-$ /opt/homebrew/bin/brew install aria2 bat direnv eza fish fzf keychain mise wezterm zoxide
+$ /opt/homebrew/bin/brew install aria2 bat delta direnv eza fish fzf keychain mise tig wezterm zoxide
 $ chsh -s /opt/homebrew/bin/fish
 ```
 
@@ -63,6 +63,16 @@ if type -q caniuse;                caniuse --completion-fish             | sourc
 5. [`zoxide`](https://github.com/ajeetdsouza/zoxide) speeds up file system navigation. I barely `cd` anymore.
 6. [`mise`](https://github.com/mise-app/mise) manages versioned toolchains per project.
 7. [`caniuse`](https://github.com/bramus/caniuse-cli) is [caniuse.com](https://caniuse.com/) for the command line.
+
+We've reached the right step to switch from `Terminal.app` and `zsh` to `WezTerm` and `fish`.
+Close `Terminal.app` and start `WezTerm` before we move along.
+
+## Install `node` and `caniuse` through `mise`
+
+```shell
+> mise use -g node@latest
+> npm install -g @bramus/caniuse-cli
+```
 
 ## `~/.config/fish/functions/`
 
@@ -114,4 +124,88 @@ I don't need to be welcomed and invited to type `help` every time.
 
 ```shell
 > set -U fish_greeting
+```
+
+## `~/.ssh/config` extracts
+
+I like my keys to be added to the agent automatically on first use, for host keys to be automatically accepted for new hosts, and to minimize bandwidth consumption.
+
+```ssh
+AddKeysToAgent yes
+Compression yes
+StrictHostKeyChecking accept-new
+```
+
+## `~/.gitconfig` extracts
+
+With this configuration in place, `git help config` should open a page in your browser. I won't describe every detail, but a few essentials.
+
+Only including 2 aliases, `ss` and `sss`, as everyone should know how `status` offers a compact output with `-s` and `-b`, and is sped up by `-uno` to avoid looking at the working tree in large repositories.
+
+You should try `tig` for a quick view of your repository's history. `lazygit` does a lot more.
+
+You can and should sign your commits with `ssh` (unless you prefer PGP).
+
+```ini
+[core]
+	autocrlf = false
+	whitespace = blank-at-eol,blank-at-eof
+	pager = delta
+[gc]
+	auto = 0
+[user]
+	signingKey = ~/.ssh/id_ed25519
+[fetch]
+	prune = true
+[push]
+	default = current
+[rerere]
+	enabled = true
+	autoUpdate = true
+[color]
+	ui = true
+[branch]
+	autosetuprebase = always
+[log]
+	date = iso
+[rebase]
+	autosquash = true
+	autostash = true
+[alias]
+	cm = commit -v
+	ss = status -sbuno
+	sss = status -sb
+[tag]
+	sort = version:refname
+[tig]
+	show-changes = true
+	commit-order = topo
+	line-graphics = utf-8
+	mouse = true
+	blame-options = -C -C -C
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[commit]
+	gpgsign = true
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[help]
+	format = web
+[gpg]
+	format = ssh
+[submodule]
+	recurse = true
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	side-by-side = true
+[merge]
+	conflictstyle = diff3
+[diff]
+	colorMoved = default
 ```
