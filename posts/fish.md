@@ -53,6 +53,7 @@ if type -q direnv;                 direnv hook fish                      | sourc
 if type -q fzf;                    fzf --fish                            | source; end
 if type -q zoxide;                 zoxide init fish                      | source; end
 if type -q mise;                   mise activate fish                    | source; end
+if type -q caniuse;                caniuse --completion-fish             | source; end
 ```
 
 1. The first line takes care of enabling [Homebrew](https://brew.sh/) on Apple Silicon macOS.
@@ -61,6 +62,7 @@ if type -q mise;                   mise activate fish                    | sourc
 4. [`fzf`](https://github.com/junegunn/fzf) is a fuzzy finder that can be used to search for files and commands.
 5. [`zoxide`](https://github.com/ajeetdsouza/zoxide) speeds up file system navigation. I barely `cd` anymore.
 6. [`mise`](https://github.com/mise-app/mise) manages versioned toolchains per project.
+7. [`caniuse`](https://github.com/bramus/caniuse-cli) is [caniuse.com](https://caniuse.com/) for the command line.
 
 ## `~/.config/fish/functions/`
 
