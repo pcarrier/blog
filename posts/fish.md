@@ -5,12 +5,42 @@ prism: true
 ---
 
 After many years on an ever-growing [`zsh`](https://zsh.sourceforge.io/) configuration,
-I switched to [`fish`](https://fishshell.com/).
+I switched to [`fish`](https://fishshell.com/) a few years ago.
 
 While perfectly satisfied with my setup, I wanted something I could recommend to a beginner.
 `fish`'s simplicity and modern defaults seem like a much better starting point if eschewing POSIX compatibility.
 
 My configuration hasn't grown much since, but a few quality of life improvements have accumulated, so I figured it is worth sharing.
+
+## Installs on Apple Silicon macOS
+
+Let's assume you're starting from scratch and want to adopt all my suggestions. Open Terminal and run the following:
+
+```shell
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ /opt/homebrew/bin/brew install aria2 bat direnv eza fish fzf keychain mise wezterm zoxide
+$ chsh -s /opt/homebrew/bin/fish
+```
+
+## `~/.wezterm.lua`
+
+Most likely, you'll need to choose another font on line 3.
+
+Unless, of course, you're interested in purchasing [PragmataPro](https://www.fsd.it/shop/fonts/pragmatapro/), a most excellent project I use nearly everywhere (eg [my main site](https://pcarrier.com)).
+
+```lua
+local wezterm = require 'wezterm'
+local config = wezterm.config_builder()
+config.font = wezterm.font 'PragmataPro Liga'
+config.font_size = 14
+config.hide_tab_bar_if_only_one_tab = true
+config.native_macos_fullscreen_mode = true
+config.pane_focus_follows_mouse = true
+config.use_fancy_tab_bar = false
+config.window_decorations = 'RESIZE'
+config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
+return config
+```
 
 ## `~/.config/fish/config.fish`
 
