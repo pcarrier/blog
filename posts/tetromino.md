@@ -14,7 +14,7 @@ I'm fairly terrible at those, but who cares? It's fun with friends, it's fun whe
 I figured [Apotris](https://akouzoukos.com/apotris/) in particular deserved a shoutout.
 You can play it for free on any potato, even [from your browser](https://akouzoukos.com/apotris/play/).
 
-Now some videos of Apotris played *much* better than I ever will, copied straight from their homepage:
+Now some videos of Apotris, copied straight from their homepage:
 
 <video src="/assets/apotris/demo1.webm" autoplay muted loop style="width: 50%; height: auto;"></video>
 <video src="/assets/apotris/demo2.webm" autoplay muted loop style="width: 50%; height: auto;"></video>
