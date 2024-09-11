@@ -38,4 +38,3 @@ That said, teaser & trailer follow in case you need convincing.
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
 ></iframe>
-b
