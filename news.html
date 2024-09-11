@@ -14,14 +14,27 @@ title: Nothing Times
       href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2032%2032%22%3E%3Ctext%20x=%2216%22%20y=%2216%22%20text-anchor=%22middle%22%20dominant-baseline=%22middle%22%20font-size=%2232%22%20fill=%22%23f00%22%3E∅%3C/text%3E%3C/svg%3E"
     />
     <style>
-      h1 time {
-        font-size: 1rem;
-        font-weight: normal;
+      :root {
+        filter: grayscale(100%);
+        overscroll-behavior: none;
+        font-family: serif;
+        font-variant-numeric: tabular-nums;
+        column-width: 40ch;
+        text-align: justify;
       }
 
       header h1 {
         font-size: 3em;
         font-weight: normal;
+      }
+
+      h1 time {
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+      article {
+        break-inside: avoid;
       }
 
       h1 {
@@ -37,14 +50,6 @@ title: Nothing Times
       h3 {
         font-size: 1.2em;
         font-weight: normal;
-      }
-
-      :root {
-        filter: grayscale(100%);
-        overscroll-behavior: none;
-        font-family: serif;
-        font-variant-numeric: tabular-nums;
-        column-width: 50ch;
       }
 
       img {
