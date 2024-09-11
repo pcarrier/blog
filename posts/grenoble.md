@@ -27,7 +27,7 @@ Big downside of the city: it's [really hot in the summer](https://en.wikipedia.o
 
 If you're ever around, [contact me](mailto:pc@rrier.fr)! I also maintain a [tiny link directory](https://grenoble.app/).
 
-## Places I recommend
+## Recommendations
 
 - [Hono Coffee House](/posts/hono), coffee shop
 - [Neuf Lamen](/posts/neuf-lamen), ramen restaurant
