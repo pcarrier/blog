@@ -6,7 +6,7 @@ title: A blog about nothing
 <main>
   {% for post in collections.post reversed %}
   <h2>
-    <time>{{post.date | dateDisplay}}:</time>
+    <time>{{post.date | dateDisplay}}</time>
     <a href="{{ post.url }}"> {{ post.data.title }}</a>
   </h2>
   {% endfor %}
@@ -15,32 +15,3 @@ title: A blog about nothing
   by <a href="https://pcarrier.com">Pierre Carrier</a> through
   <a href="https://github.com/pcarrier/blog">git</a>
 </footer>
-<script>
-  if (location.hash === "#experiment") {
-    const style = document.createElement("style");
-    style.textContent = `
-    h2 {
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
-    }
-  `;
-    document.head.appendChild(style);
-    titles = document.querySelectorAll("h2");
-    function adjust() {
-      const scroll = window.scrollY;
-      const height = document.documentElement.scrollHeight - window.innerHeight;
-      const percentage = scroll / height;
-      for (let i = 0; i < titles.length; i++) {
-        const title = titles[i];
-        const ratio = i / titles.length;
-        const distance = Math.abs(percentage - ratio);
-        const factor = 1 + Math.pow(1 - distance, 5);
-        title.style.fontSize = `${factor}rem`;
-      }
-    }
-    addEventListener("scroll", adjust);
-    addEventListener("resize", adjust);
-    adjust();
-  }
-</script>

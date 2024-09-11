@@ -12,6 +12,7 @@
     <style>
       :root {
         --border-radius: 0.5em;
+        --link-c: light-dark(#00f, #ff0);
         color-scheme: dark light;
         overscroll-behavior: none;
         display: flex;
@@ -60,10 +61,17 @@
         border-bottom-right-radius: var(--border-radius);
       }
 
-      h2 time {
-        color: light-dark(#444, #bbb);
-        font-weight: normal;
+      main > h2 {
         font-size: 1rem;
+        font-weight: normal;
+      }
+      main > h2 > time {
+        display: inline-block;
+        color: light-dark(#fff, #000);
+        background-color: var(--link-c);
+        font-size: 0.8rem;
+        padding: 0.1rem;
+        border-radius: 0.1rem;
       }
 
       pre {
@@ -76,7 +84,7 @@
       }
 
       a {
-        color: light-dark(#00f, #ff0);
+        color: var(--link-c);
       }
 
       /* {% if prism %} https://unpkg.com/prismjs@1.29.0/themes/prism-okaidia.css */
