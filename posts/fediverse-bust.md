@@ -1,5 +1,5 @@
 ---
-title: "Owning your Fediverse identity falls short"
+title: "Fediverse identity ownership falls short"
 date: 2024-09-06
 ---
 
