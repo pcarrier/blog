@@ -14,9 +14,15 @@ css: |
     padding: 0.1rem;
     border-radius: 0.1rem;
   }
+
+  aside {
+    text-align: center;
+    font-style: italic;
+  }
 ---
 
 <main>
+  <aside><a href="/news">I prefer newspapers.</a></aside>
   {% for post in collections.post reversed %}
   <h2>
     <time>{{post.date | dateDisplay}}</time>
