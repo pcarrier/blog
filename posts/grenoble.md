@@ -25,10 +25,10 @@ Bicycle lanes abound and public transportation is plentiful. History and nature 
 
 Big downside of the city: it's [really hot in the summer](https://en.wikipedia.org/wiki/Grenoble#Climate).
 
-If you're ever around, [contact me](mailto:pc@rrier.fr)! I also maintain a [tiny link directory](https://grenoble.app/).
-
 ## Recommendations
 
 - [Hono Coffee House](/posts/hono), coffee shop
 - [Neuf Lamen](/posts/neuf-lamen), ramen restaurant
 - [La Rivière des Parfums](/posts/riviere-des-parfums), Vietnamese restaurant
+- [Grenoble.app](https://grenoble.app), my link directory for new residents
+- [Contact me](mailto:pc@rrier.fr)!
