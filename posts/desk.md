@@ -31,6 +31,7 @@ Though my desk can be raised and lowered electrically, I rarely stand in front. 
 
 Also pictured are:
 
+- A [200W USB-C 6-Port GaN Charger from Satechi](https://satechi.net/products/6-port-gan-charger);
 - An [Analogue Pocket](https://www.analogue.co/pocket/) console;
 - An [Xbox Elite Series 2](https://www.xbox.com/accessories/controllers/elite-wireless-controller-series-2) gamepad;
 - A [Pixel 8 Pro](https://store.google.com/product/pixel_8_pro) phone;
