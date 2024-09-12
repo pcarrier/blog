@@ -1,6 +1,7 @@
 ---
 title: Chromebook for devs
 date: 2015-03-19
+prism: true
 ---
 
 _This article was migrated from [Medium](https://medium.com/@pcarrier/developer-chromebook-101-435e76d55d88)._
@@ -15,7 +16,7 @@ Use [Crosh Window](https://chrome.google.com/webstore/detail/crosh-window/nhbmpb
 
 Install [Crouton](https://github.com/dnschneid/crouton), get a chroot up and running:
 
-```
+```shell
 crosh> shell
 chronos@localhost ~ $ sudo sh -e ~/Downloads/crouton -r trusty -t xiwi -e
 ```
@@ -26,7 +27,7 @@ chronos@localhost ~ $ sudo sh -e ~/Downloads/crouton -r trusty -t xiwi -e
 
 Useful to quickly open a shell or run a command in the chroot.
 
-```
+```shell
 crosh> shell
 chronos@localhost ~ $ sudo tee /usr/local/bin/s <<EOF
 #!/bin/sh
@@ -39,7 +40,7 @@ chronos@localhost ~ $ sudo chmod a+x /usr/local/bin/s
 
 Starts your X environment.
 
-```
+```shell
 crosh> shell
 chronos@localhost ~ $ sudo tee /usr/local/bin/x <<EOF
 #!/bin/sh
@@ -56,7 +57,7 @@ Make those changes before installing anything.
 
 Not much room on your average Chromebook, so let’s minimize disk utilization.
 
-```
+```apt
 APT::Install-Recommends “false”;
 APT::AutoRemove::RecommendsImportant “false”;
 APT::AutoRemove::SuggestsImportant “false”;
@@ -67,7 +68,7 @@ Acquire::Languages “none”;
 
 Backports are a no-brainer for zsh users, as our favourite shell won’t have manpages otherwise. We enable them for all packages here.
 
-```
+```dpkg
 Package: *
 Pin: release a=trusty-backports
 Pin-Priority: 500
@@ -77,7 +78,7 @@ Pin-Priority: 500
 
 Pick and choose, I doubt you want them all…
 
-```
+```sources.list
 deb http://us.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse
 deb http://us.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse
 deb http://us.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
@@ -108,7 +109,7 @@ deb http://ppa.launchpad.net/modriscoll/nzbget/ubuntu trusty main
 
 `apt-get update` will complain about missing keys. To import them, use something like:
 
-```
+```shell
 % sudo apt-key adv --keyserver pgp.mit.edu --recv
 1234567890ABCDEF FEDCBA0987654321
 ```
@@ -121,7 +122,7 @@ As i3 maps quite a lot under its modifier, I use Mod4 (presented by i3 as “win
 
 ### `~/.xinitrc`
 
-```
+```shell
 #!/bin/sh -e
 xrdb -merge ~/.Xresources
 xmodmap ~/.Xmodmap
@@ -130,7 +131,7 @@ exec zsh -lc 'exec i3'
 
 ### `~/.Xmodmap`
 
-```
+```xmodmap
 remove mod1 = Alt_R
 add mod4 = Alt_R
 ```
@@ -139,7 +140,7 @@ add mod4 = Alt_R
 
 Really a matter of taste…
 
-```
+```xresources
 URxvt*foreground: white
 URxvt*background: black
 URxvt*cursorColor: red
@@ -151,7 +152,7 @@ Make sure the `resolvconf` package isn’t installed so `/etc/hosts` will be cor
 
 TUN devices get automatically destroyed by the network manager, shill, which will break OpenConnect, vpnc and OpenVPN. To disable this behaviour until the next boot:
 
-```
+```shell
 crosh> shell
 chronos@localhost / $ sudo initctl stop shill && sudo shill --device-black-list=tun0,tun1
 ```
