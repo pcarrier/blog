@@ -1,13 +1,9 @@
----
-title: Nothing Times
----
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+    <title>Nothing Times</title>
     <link rel="alternate" type="application/json" href="/feed.json" />
     <link
       rel="icon"
@@ -20,10 +16,12 @@ title: Nothing Times
         font-family: serif;
         font-variant-numeric: tabular-nums;
         font-variant-emoji: text;
-        column-width: 50ch;
+        box-sizing: border-box;
+        column-width: 40ch;
         column-gap: 1ch;
         text-align: justify;
         padding: 1em;
+        max-height: max(200em, 100svh);
       }
 
       header h1 {
@@ -36,7 +34,6 @@ title: Nothing Times
       }
 
       article {
-        break-inside: avoid;
         border-bottom: 2px solid black;
       }
 
@@ -90,7 +87,7 @@ title: Nothing Times
   </head>
   <body>
     <header>
-      <h1>{{ title }}</h1>
+      <h1>Nothing Times</h1>
     </header>
     <main>
       <aside><a href="/">Prefer blogs?</a></aside>
