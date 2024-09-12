@@ -23,12 +23,12 @@ You can play it for free on any potato, even [from your browser](https://akouzou
 
 Some videos copied straight from their homepage:
 
-<video class="tetromino" src="/assets/apotris/demo1.webm" autoplay muted loop></video>
-<video class="tetromino" src="/assets/apotris/demo2.webm" autoplay muted loop></video>
-<video class="tetromino" src="/assets/apotris/demo3.webm" autoplay muted loop></video>
-<video class="tetromino" src="/assets/apotris/demo4.webm" autoplay muted loop></video>
-<video class="tetromino" src="/assets/apotris/demo5.webm" autoplay muted loop></video>
-<video class="tetromino" src="/assets/apotris/demo6.webm" autoplay muted loop></video>
+[<video class="tetromino" src="/assets/apotris/demo1.webm" autoplay muted loop></video>](/assets/apotris/demo1.webm)
+[<video class="tetromino" src="/assets/apotris/demo2.webm" autoplay muted loop></video>](/assets/apotris/demo2.webm)
+[<video class="tetromino" src="/assets/apotris/demo3.webm" autoplay muted loop></video>](/assets/apotris/demo3.webm)
+[<video class="tetromino" src="/assets/apotris/demo4.webm" autoplay muted loop></video>](/assets/apotris/demo4.webm)
+[<video class="tetromino" src="/assets/apotris/demo5.webm" autoplay muted loop></video>](/assets/apotris/demo5.webm)
+[<video class="tetromino" src="/assets/apotris/demo6.webm" autoplay muted loop></video>](/assets/apotris/demo6.webm)
 
 ## Soon, Tetris Forever
 
