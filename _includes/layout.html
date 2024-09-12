@@ -10,15 +10,6 @@
       href="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2032%2032%22%3E%3Ctext%20x=%2216%22%20y=%2216%22%20text-anchor=%22middle%22%20dominant-baseline=%22middle%22%20font-size=%2232%22%20fill=%22%23f00%22%3E∅%3C/text%3E%3C/svg%3E"
     />
     <style>
-      @keyframes gift {
-        from {
-          transform: translateY(100%) scale(0);
-        }
-        to {
-          transform: translateY(0%) scale(1);
-        }
-      }
-
       :root {
         --border-radius: 0.5em;
         --link-c: light-dark(#00f, #ff0);
@@ -40,7 +31,6 @@
 
       body {
         max-width: min(80ch, calc(100svw - 2em));
-        animation: gift ease-in-out 0.1s;
       }
 
       img {
@@ -51,6 +41,10 @@
 
       audio {
         width: 100%;
+      }
+
+      video {
+        border-radius: var(--border-radius);
       }
 
       iframe {
@@ -94,6 +88,7 @@
       }
 
       a:hover {
+        border-radius: 0.1em;
         background-color: var(--link-c);
         color: light-dark(#fff, #000);
       }

@@ -2,7 +2,7 @@
 title: Tetromino galore
 date: 2024-09-15
 css: |
-  video {
+  video.tetromino {
     width: 50%;
     height: auto;
   }
@@ -23,12 +23,12 @@ You can play it for free on any potato, even [from your browser](https://akouzou
 
 Some videos copied straight from their homepage:
 
-<video src="/assets/apotris/demo1.webm" autoplay muted loop></video>
-<video src="/assets/apotris/demo2.webm" autoplay muted loop></video>
-<video src="/assets/apotris/demo3.webm" autoplay muted loop></video>
-<video src="/assets/apotris/demo4.webm" autoplay muted loop></video>
-<video src="/assets/apotris/demo5.webm" autoplay muted loop></video>
-<video src="/assets/apotris/demo6.webm" autoplay muted loop></video>
+<video class="tetromino" src="/assets/apotris/demo1.webm" autoplay muted loop></video>
+<video class="tetromino" src="/assets/apotris/demo2.webm" autoplay muted loop></video>
+<video class="tetromino" src="/assets/apotris/demo3.webm" autoplay muted loop></video>
+<video class="tetromino" src="/assets/apotris/demo4.webm" autoplay muted loop></video>
+<video class="tetromino" src="/assets/apotris/demo5.webm" autoplay muted loop></video>
+<video class="tetromino" src="/assets/apotris/demo6.webm" autoplay muted loop></video>
 
 ## Soon, Tetris Forever
 
