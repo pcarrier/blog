@@ -14,27 +14,27 @@ That said, teaser & trailer follow in case you need convincing.
 
 ## Scavengers (a 2016 short)
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/1TRzemJbUsw"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>
 
 ## Teaser
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/JOsZVmVPn4E"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>
 
 ## Trailer
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/NWQH8cMpWTU"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>

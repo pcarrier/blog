@@ -25,37 +25,37 @@ What a [time sink](https://trakt.tv/users/pcarrier/history) video can be.
 
 ### Random shader I made
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.shadertoy.com/embed/3lBXRD?paused=false"
   allowfullscreen
-></iframe>
+></iframe></p>
 
 ### The puzzle of motivation — Dan Pink
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/rrkrvAUbU9Y"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>
 
 ### Growing a Language — Guy L. Steele Jr.
 
 [Transcript](https://pcarrier.com/steele.pdf).
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/lw6TaiXzHAE"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>
 
 ## Programming Obesity: A Code Health Epidemic — Aaron W Hsu
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/UDqx1afGtQc"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>

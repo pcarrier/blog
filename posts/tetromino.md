@@ -34,9 +34,9 @@ Some videos copied straight from their homepage:
 
 I can't wait for Tetris Forever to come out.
 
-<iframe
+<p><iframe
   loading="lazy"
   src="https://www.youtube-nocookie.com/embed/H_H8CNNMNec"
   allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"
   allowfullscreen
-></iframe>
+></iframe></p>
