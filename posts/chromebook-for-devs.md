@@ -160,7 +160,3 @@ chronos@localhost / $ sudo initctl stop shill && sudo shill --device-black-list=
 ## What’s next?
 
 I kept most of my personal configuration out of this document, but I’d be happy to explore more in future articles. Let me know what you’d like to see covered [on Twitter](https://twitter.com/pcarrier)!
-
-```
-
-```
