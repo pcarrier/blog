@@ -56,7 +56,7 @@ if type -q mise;                   mise activate fish                    | sourc
 if type -q caniuse;                caniuse --completion-fish             | source; end
 ```
 
-1. The first line takes care of enabling [Homebrew](https://brew.sh/) on Apple Silicon macOS.
+1. The first line enables [Homebrew](https://brew.sh/) on Apple Silicon macOS.
 2. [`keychain`](https://www.funtoo.org/Funtoo:Keychain) starts SSH and GPG agents as needed.
 3. [`direnv`](https://direnv.net/) automatically sets up environments per project.
 4. [`fzf`](https://github.com/junegunn/fzf) is a fuzzy finder that can be used to search for files and commands.
