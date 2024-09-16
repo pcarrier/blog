@@ -1,5 +1,5 @@
 ---
-title: Thirty years of calculators
+title: Decades of calculators
 date: 2024-09-17
 ---
 
@@ -13,7 +13,7 @@ After a lot of starring in stores and begging, I received the dream machine: the
 
 [![TI-92 Plus](/assets/calculators/ti92plus.jpg)](/assets/calculators/ti92plus.jpg)
 
-Came with a powerful Symbolic Algebraic System, and Cabri Géomètre, a brilliant app to construct geometry, and, once I discovered how to transfer files from the Internet onto it, a treasure trove of games.
+Came with a powerful Symbolic Algebraic System and Cabri Géomètre (a brilliant app to construct geometry). Once I discovered how to transfer files from the Internet onto it, a lot of games followed.
 
 It lasted quite a few years. When it finally gave up, I immediately replaced it with its successor, the TI Voyage 200 ([manual](/assets/calculators/voyage200manual.pdf)), which I've kept to this day.
 
