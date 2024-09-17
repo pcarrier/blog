@@ -15,7 +15,7 @@ After [a journey of many seasons](https://pcarrier.com/teeko), I'm running an on
 
 It feels like merely the beginning though.
 
-## Online version: needs work!
+## [Online version](https://teeko.cc): needs work!
 
 The online version was built around my personal desire for remote play, and to turn my phone into a board at an instant's notice. It's functional for both. But…
 
