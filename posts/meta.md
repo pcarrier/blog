@@ -23,3 +23,5 @@ GitHub Actions are available on the `deploy` branch, largely unused. Usually muc
 Articles are written in Markdown, images are authored in high-res AVIF and made available in AVIF and JPEG in a variety of sizes.
 
 An [index](/) lists all posts, its [JSON Feed](https://www.jsonfeed.org/) provides the last 10 posts to feed readers.
+
+**Update (2024-09-18):** There is also a [newspaper view](/news) for that old-school feel now.
