@@ -1,5 +1,5 @@
 ---
-title: ❤️ Scavengers Reign (2023)
+title: Scavengers Reign (2023)
 date: 2024-09-09
 ---
 

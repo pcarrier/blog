@@ -1,5 +1,5 @@
 ---
-title: ❤️ La Rivière des Parfums
+title: La Rivière des Parfums
 date: 2024-09-13
 ---
 

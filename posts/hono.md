@@ -1,5 +1,5 @@
 ---
-title: ❤️ Hono Coffee House
+title: Hono Coffee House
 date: 2024-09-08
 ---
 

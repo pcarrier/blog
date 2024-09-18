@@ -1,5 +1,5 @@
 ---
-title: ❤️ Neuf Lamen
+title: Neuf Lamen
 date: 2024-09-07
 ---
 
