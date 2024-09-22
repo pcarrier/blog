@@ -22,9 +22,9 @@ Things get wilder at 2.5✕ ultramacro (on a 36✕24mm sensor, capturing a surfa
 - Decreasing the aperture until diffraction becomes a problem, usually around f/11 to 1/16. To compensate for the loss of light, brighter environments and/or longer exposure times are required.
 - Focus stacking: combine many photographs taken with at different focus distances, or distances of the camera to the object (through movement of the camera and lens on a macro rail).
 
-We do the latter here using [Helicon Focus](https://www.heliconsoft.com/heliconsoft-products/helicon-focus/). Here are 80 frames shown at 5 frames per second:
+We do the latter here using [Helicon Focus](https://www.heliconsoft.com/heliconsoft-products/helicon-focus/). Here are 80 frames shown at 10 frames per second:
 
-[<video src="/assets/macro-detour/lighter.webm" autoplay muted loop></video>](/assets/macro-detour/lighter.webm)
+[<video autoplay muted loop controls><source src="/assets/macro-detour/lighter.mp4" type="video/mp4"><source src="/assets/macro-detour/lighter.webm" type="video/webm"></video>](/assets/macro-detour/lighter.mp4)
 
 And the picture they combine to form:
 
