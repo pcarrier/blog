@@ -11,7 +11,7 @@ After [a journey of many seasons](https://pcarrier.com/teeko), I'm running an on
 
 [![Teeko in its case, near a deck of cards and a chess clock](/assets/teeko/packed.avif)](/assets/teeko/packed.avif)
 
-[![Teeko unpacked: a textile board, 2✕4 pieces](/assets/teeko/unpacked.avif)](/assets/teeko/unpacked.avif)
+[![Teeko unpacked: a textile board, 2×4 pieces](/assets/teeko/unpacked.avif)](/assets/teeko/unpacked.avif)
 
 It feels like merely the beginning though.
 
