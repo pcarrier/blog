@@ -17,7 +17,6 @@
       :root {
         --border-radius: 0.5em;
         --link-c: light-dark(#00afff, #ff4f00);
-        --bg-c: light-dark(#eee, #111);
         color-scheme: dark light;
         overscroll-behavior: none;
         display: flex;
@@ -90,7 +89,8 @@
 
       main,
       article {
-        background-color: var(--bg-c);
+        background-color: light-dark(#eeeeeecc, #111111cc);
+        backdrop-filter: blur(0.5em);
         padding: 1em;
       }
 
@@ -102,6 +102,10 @@
         border-radius: 0.1em;
         background-color: var(--link-c);
         color: light-dark(#fff, #000);
+      }
+
+      a:hover:has(>picture:only-child) {
+        background: none;
       }
 
       {{ css }}
