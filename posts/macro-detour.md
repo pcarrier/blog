@@ -24,7 +24,7 @@ Things get wilder at 2.5✕ ultramacro (on a 36✕24mm sensor, capturing a surfa
 
 We do the latter here using [Helicon Focus](https://www.heliconsoft.com/heliconsoft-products/helicon-focus/). Here are 80 frames shown at 10 frames per second:
 
-[<video autoplay muted loop controls><source src="/assets/macro-detour/lighter.mp4" type="video/mp4"><source src="/assets/macro-detour/lighter.webm" type="video/webm"></video>](/assets/macro-detour/lighter.mp4)
+[<video width="1920" height="1080" autoplay muted loop controls><source src="/assets/macro-detour/lighter.mp4" type="video/mp4"><source src="/assets/macro-detour/lighter.webm" type="video/webm"></video>](/assets/macro-detour/lighter.mp4)
 
 And the picture they combine to form:
 
