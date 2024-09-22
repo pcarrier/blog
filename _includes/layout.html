@@ -37,6 +37,11 @@
         max-width: min(80ch, calc(100svw - 2em));
       }
 
+      img, video, iframe {
+        /* shadow */
+        box-shadow: 0 0 0.5em 0.1em light-dark(#fff, #000);
+      }
+
       img {
         border-radius: var(--border-radius);
         max-width: 100%;
@@ -104,7 +109,7 @@
         color: light-dark(#fff, #000);
       }
 
-      a:hover:has(>picture:only-child) {
+      a:hover:has(>:is(picture, video, iframe):only-child) {
         background: none;
       }
 
