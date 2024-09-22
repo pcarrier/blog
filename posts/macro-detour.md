@@ -30,4 +30,4 @@ And the picture they combine to form:
 
 [![Lighter](/assets/macro-detour/lighter-composite.avif)](/assets/macro-detour/lighter-composite.avif)
 
-As magnification keeps increasing, photography gets harder: it requires extensive preparation including cleaning (very poorly done here), and working around vibrations through dozens and dozens, sometimes hundreds of frames.
+As magnification keeps increasing, photography gets harder: it requires extensive preparation including cleaning (very poorly done here), and avoiding vibrations through dozens and dozens, sometimes hundreds of frames.
