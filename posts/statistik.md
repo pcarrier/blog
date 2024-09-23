@@ -10,7 +10,7 @@ If you have a bunch of numbers and want a quick look at their distribution, `sta
 
 For example, let's look at how many requests each IP made to ident.me. First, let's look at the first 5 requests of the last hour to confirm we're extracting the data correctly (I censored the results):
 
-```sh
+```shell
 > doas head -n5 /var/log/nginx/access.log | jq -r .r
 9.255.1.7
 2600:40:4201:7a10::abc7
@@ -21,7 +21,7 @@ For example, let's look at how many requests each IP made to ident.me. First, le
 
 We wonder if some IPs make more requests than others, and what the distribution looks like. Let's find out by looking at the first 100,000 requests now, passing them through `suc` to get the number of requests per IP, then `statistik` for analysis:
 
-```sh
+```shell
 > doas head -n100000 /var/log/nginx/access.log | jq -r .r | suc | statistik
 size:  45157
 sum:   100000.0

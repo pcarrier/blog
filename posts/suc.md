@@ -8,7 +8,7 @@ I've written a lot of shell one-liners over the years, and packed a few most use
 
 To install it system-wide, make sure Ruby is installed, then run:
 
-```sh
+```shell
 $ sudo gem install baze --no-user-install
 ```
 
@@ -25,7 +25,7 @@ It's quite frequent that I want to list all line counts. If `/var/log/xhttpd/acc
 
 I can produce a list of paths sorted by decreasing number of occurences with:
 
-```sh
+```shell
 $ jq -r .path /var/log/xhttpd/access.log | sort | uniq -c | sort -nr
    2 /favicon.ico
    1 /world
@@ -36,7 +36,7 @@ Unfortunately this is extremely inefficient at scale, taking for _n_ lines _O(nâ
 
 `suc -r` is a drop-in replacement leveraging a hash table, taking for _n_ lines of _k_ distinct values _O(n)_ time and _O(k)_ space.
 
-```sh
+```shell
 $ jq -r .path /var/log/xhttpd/access.log | suc -r
       2 /favicon.ico
       1 /hello
