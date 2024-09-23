@@ -4,6 +4,10 @@ layout: layout.html
 
 <article>{{ content }}</article>
 <footer>
-  <a href="mailto:pc@rrier.fr?subject=About%20%22{{ title | url }}%22">react</a>
-  — <a href="/">a blog about nothing</a>, {{ date | dateDisplay }}
+  from <a href="/">a blog about nothing</a> on {{ date | dateDisplay }} |
+  <a href="mailto:pc@rrier.fr?subject=Re:%20%22{{ title | url }}%22">react</a>
+  |
+  <a href="https://github.com/pcarrier/blog/blob/main/{{ page.inputPath }}"
+    >source</a
+  >
 </footer>
