@@ -3,11 +3,13 @@ layout: layout.html
 ---
 
 <header>
+  <h2><a href="/">a blog about nothing</a> presents</h2>
   <h1>{{ titlehtml | default: title }}</h1>
+  <time>on {{ date | dateDisplay }}</time>
 </header>
 <article>{{ content }}</article>
 <footer>
-  from <a href="/">a blog about nothing</a> on {{ date | dateDisplay }} |
+  by <a href="https://pcarrier.com">Pierre Carrier</a> |
   <a href="mailto:pc@rrier.fr?subject=Re:%20%22{{ title | url }}%22">react</a>
   |
   <a href="https://github.com/pcarrier/blog/blob/main/{{ page.inputPath }}"
