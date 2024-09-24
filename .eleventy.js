@@ -10,6 +10,7 @@ async function htmlmin(content) {
     minifyCSS: true,
   });
 }
+
 export default function (cfg) {
   cfg.addPlugin(syntaxHighlight);
   cfg.addPlugin(eleventyImageTransformPlugin, {
@@ -34,6 +35,7 @@ export default function (cfg) {
     "dateDisplay",
     (date) => new Date(date).toISOString().split("T")[0]
   );
+
   cfg.addFilter("htmlmin", htmlmin);
   cfg.addTransform("minify", function (content) {
     const outPath = this.page.outputPath || "";

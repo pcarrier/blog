@@ -1,4 +1,5 @@
 ---
+titlehtml: "<code>baze</code> utilities: <code>shost</code>"
 title: "baze utilities: shost"
 date: 2024-09-25
 prism: true

@@ -1,4 +1,5 @@
 ---
+titlehtml: <code>errnos</code>
 title: errnos
 date: 2011-05-21
 prism: true

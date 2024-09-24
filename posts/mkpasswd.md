@@ -1,4 +1,5 @@
 ---
+titlehtml: <code>mkpasswd</code>
 title: mkpasswd
 date: 2011-04-18
 ---

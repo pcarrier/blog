@@ -1,5 +1,6 @@
 ---
-title: Page Cache My Assets
+titlehtml: "<code>pcma</code>: Page Cache My Assets"
+title: "pcma: Page Cache My Assets"
 date: 2012-05-01
 ---
 

@@ -1,4 +1,5 @@
 ---
+titlehtml: <code>nato</code>, <code>superglob</code>
 title: nato, superglob
 date: 2011-05-12
 prism: true
@@ -6,7 +7,7 @@ prism: true
 
 When you end up having to dictate Unix commands over the phone, you quickly learn from your colleagues that optimism doesn’t compensate your French accent. Turns out cancelling your lovefilm subscription triggers a similar problem.
 
-The most common answer is to involve the NATO phonetic alphabet. Looking up a table pinned to your desk is tedious, getting fluent takes time. That’s where [`nato`](https://github.com/pcarrier/stuff/blob/master/fun/nato.c) kicks in.
+The most common answer is to involve the NATO phonetic alphabet. Looking up a table pinned to your desk is tedious, getting fluent takes time. That’s where [`nato`](https://github.com/pcarrier/stuff/blob/master/fun/nato.c) kicks in.X
 
 Not much to say, really:
 

@@ -1,4 +1,5 @@
 ---
+titlehtml: My <code>fish</code> shell
 title: My fish shell
 date: 2024-09-12
 prism: true

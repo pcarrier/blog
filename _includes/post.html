@@ -2,6 +2,9 @@
 layout: layout.html
 ---
 
+<header>
+  <h1>{{ titlehtml | default: title }}</h1>
+</header>
 <article>{{ content }}</article>
 <footer>
   from <a href="/">a blog about nothing</a> on {{ date | dateDisplay }} |
