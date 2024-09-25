@@ -236,5 +236,17 @@
   </head>
   <body>
     {{ content }}
+    <footer>
+      by <a href="https://pcarrier.com">Pierre Carrier</a> |
+      <a href="mailto:pc@rrier.fr?subject=Re:%20%22{{ title | url }}%22"
+        >react</a
+      >
+      |
+      <a href="/feed.json">feed</a>
+      |
+      <a href="https://github.com/pcarrier/blog/blob/main/{{ page.inputPath }}"
+        >source</a
+      >
+    </footer>
   </body>
 </html>
