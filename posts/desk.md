@@ -39,3 +39,5 @@ Also pictured are:
 - A [TX660](https://electronics.sony.com/audio/walkman-digital-recorders/audio-digital-voice-recorders/p/icdtx660) digital voice recorder;
 - A Logitech Brio 4K Pro webcam;
 - A ThinkPad keyboard (for the bootloader…).
+
+**Update (2024-09-27):** Added the [SlimBlade Pro](/posts/slimbladepro) trackball to the setup, and documented my music composition gear there.
