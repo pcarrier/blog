@@ -96,9 +96,12 @@
     </header>
     <main>
       <aside>
-        by <a href="https://pcarrier.com">Pierre Carrier</a> through
-        <a href="https://github.com/pcarrier/blog">git</a><br />
-        <a href="/">Prefer blogs?</a>
+        by <a href="https://pcarrier.com">Pierre Carrier</a>.
+        <a href="/">Prefer blogs?</a> <a href="/feed.json">Feeds?</a>
+        <a
+          href="https://github.com/pcarrier/blog/blob/main/{{ page.inputPath }}"
+          >Sources?</a
+        >
       </aside>
       {% for post in collections.post reversed %}
       <article>
@@ -112,5 +115,15 @@
       </article>
       {% endfor %}
     </main>
+    <script>
+      const ttl =
+        performance.timeOrigin +
+        performance.now() -
+        performance.timing.navigationStart;
+      if (ttl >= 0)
+        document
+          .querySelector("aside")
+          .insertAdjacentHTML("beforeend", ` (${ttl.toFixed(0)}ms)`);
+    </script>
   </body>
 </html>

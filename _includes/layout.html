@@ -251,9 +251,10 @@
         performance.timeOrigin +
         performance.now() -
         performance.timing.navigationStart;
-      document
-        .querySelector("footer")
-        .insertAdjacentHTML("beforeend", ` | ${ttl.toFixed(0)}ms`);
+      if (ttl >= 0)
+        document
+          .querySelector("footer")
+          .insertAdjacentHTML("beforeend", ` | ${ttl.toFixed(0)}ms`);
     </script>
   </body>
 </html>
