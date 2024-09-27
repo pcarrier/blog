@@ -246,5 +246,14 @@
         >source</a
       >
     </footer>
+    <script>
+      const ttl =
+        performance.timeOrigin +
+        performance.now() -
+        performance.timing.navigationStart;
+      document
+        .querySelector("footer")
+        .insertAdjacentHTML("beforeend", ` | ${ttl.toFixed(0)}ms`);
+    </script>
   </body>
 </html>
