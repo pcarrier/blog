@@ -30,7 +30,7 @@ For once, I used glib as I needed a hashtable of lists and couldn't be bothered 
 
 The first column gives the number in its decimal representation, the second in hexadecimal. The third is either its `strerror` representation between double quotes or a preprocessor constant.
 
-To close this article, here is the end of its output on my Mac:
+To close this post, here is the end of its output on my Mac:
 
 ```shell
 $ errnos | tail

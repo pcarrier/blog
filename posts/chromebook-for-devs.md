@@ -4,7 +4,7 @@ date: 2015-03-19
 prism: true
 ---
 
-_This article was migrated from [Medium](https://medium.com/@pcarrier/developer-chromebook-101-435e76d55d88)._
+_This post was migrated from [Medium](https://medium.com/@pcarrier/developer-chromebook-101-435e76d55d88)._
 
 Those notes assume the reader is **very** familiar with Unix environments. Get out whilst you can.
 
@@ -159,4 +159,4 @@ chronos@localhost / $ sudo initctl stop shill && sudo shill --device-black-list=
 
 ## What’s next?
 
-I kept most of my personal configuration out of this document, but I’d be happy to explore more in future articles. Let me know what you’d like to see covered [on Twitter](https://twitter.com/pcarrier)!
+I kept most of my personal configuration out of this document, but I’d be happy to explore more in future posts. Let me know what you’d like to see covered [on Twitter](https://twitter.com/pcarrier)!

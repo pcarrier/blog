@@ -1,4 +1,4 @@
-# A blog about nothing
+# Daily dose of nothing
 
 ## Getting started
 

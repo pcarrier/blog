@@ -20,7 +20,7 @@ It is deployed to [xmit](https://xmit.co/), my very own hosting platform, from a
 
 GitHub Actions are available on the `deploy` branch, largely unused. Usually much faster to deploy locally.
 
-Articles are written in Markdown, images are authored in high-res AVIF and made available in AVIF and JPEG in a variety of sizes.
+Posts are written in Markdown, images are authored in high-res AVIF and made available in AVIF and JPEG in a variety of sizes.
 
 An [index](/) lists all posts, its [JSON Feed](https://www.jsonfeed.org/) provides the last 10 posts to feed readers.
 
