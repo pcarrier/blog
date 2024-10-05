@@ -70,8 +70,8 @@ How are you?
 `enctype` is only required for file uploads, and all fields are optional. If you POST nothing, you'll receive something like:
 
 ```text
-From: "nothing.pcarrier.com" <noreply@forms.xmit.co>
-Reply-To: "nothing.pcarrier.com" <noreply@forms.xmit.co>
+From: "nothing.pcarrier.com" &lt;noreply@forms.xmit.co&gt;
+Reply-To: "nothing.pcarrier.com" &lt;noreply@forms.xmit.co&gt;
 Subject: [nothing.pcarrier.com] Form submission
 ```
 
