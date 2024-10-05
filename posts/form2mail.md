@@ -10,7 +10,7 @@ I dove into building a service to make that easy, only to realize that it would 
 
 Here is today's design; I welcome feedback and suggestions.
 
-In my site's HTML, I could add a form like:
+In my site's HTML, I can add a form like:
 
 ```html
 <form action="/contact" method="POST" enctype="multipart/form-data">
@@ -28,7 +28,7 @@ In my site's HTML, I could add a form like:
 </form>
 ```
 
-for this (working) example:
+for this (now working) example:
 
 <form action="/contact" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; align-items: start; gap: .2em">
   <input type="text" name="name" placeholder="Name" required>
@@ -44,7 +44,7 @@ for this (working) example:
   <button type="submit">Send</button>
 </form>
 
-To activate it, I'd add to my site's [`xmit.toml`](https://xmit.co/docs):
+To activate it, I add to my site's [`xmit.toml`](https://xmit.co/docs):
 
 ```toml
 [[forms]]
@@ -53,7 +53,7 @@ to = "pc@rrier.fr"
 then = "/posts/form2mail/"
 ```
 
-I could soon receive an E-mail like:
+I can then receive an E-mail like:
 
 ```text
 From: "John Doe" &lt;john.doe.gmail.com@forms.xmit.co&gt;
@@ -67,7 +67,7 @@ domain = 'personal'
 How are you?
 ```
 
-`enctype` is only required for file uploads, and all fields are optional. If you POST nothing, you'll receive something like:
+`enctype` is only required for file uploads, and all fields are optional. If I POST nothing (`curl -d '' https://nothing.pcarrier.com/contact`), I receive:
 
 ```text
 From: "nothing.pcarrier.com" &lt;noreply@forms.xmit.co&gt;
