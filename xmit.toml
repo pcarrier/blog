@@ -6,4 +6,4 @@ on = "^/(assets|img)/.*"
 [[forms]]
 from = "/contact"
 to = "pc@rrier.fr"
-then = "https://nothing.pcarrier.com/posts/form2mail"
+then = "https://nothing.pcarrier.com/posts/form2mail/"

@@ -3,7 +3,7 @@ title: "N++: platforming perfection"
 date: 2024-09-18
 ---
 
-_[Tetris](/posts/tetromino) got its post; time to cover my other favourite video game._
+_[Tetris](/posts/tetromino/) got its post; time to cover my other favourite video game._
 
 [N++](https://nplusplus.org/) is, in my opinion, the best platforming game ever made.
 

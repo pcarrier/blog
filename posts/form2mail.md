@@ -14,16 +14,16 @@ In my site's HTML, I could add a form like:
 
 ```html
 <form action="/contact" method="POST" enctype="multipart/form-data">
-  <input type="text" name="name" placeholder="Name" required>
-  <input type="email" placeholder="E-mail" name="email" required>
-  <input type="subject" placeholder="Subject (optional)" name="subject">
+  <input type="text" name="name" placeholder="Name" required />
+  <input type="email" placeholder="E-mail" name="email" required />
+  <input type="subject" placeholder="Subject (optional)" name="subject" />
   <textarea name="message" placeholder="Message" required></textarea>
   <select name="domain">
     <option value="personal">personal</option>
     <option value="work">work</option>
     <option value="hobby">hobby</option>
   </select>
-  <input type="file" name="files" multiple>
+  <input type="file" name="files" multiple />
   <button type="submit">Send</button>
 </form>
 ```
@@ -50,7 +50,7 @@ To activate it, I'd add to my site's [`xmit.toml`](https://xmit.co/docs):
 [[forms]]
 from = "/contact"
 to = "pc@rrier.fr"
-then = "/posts/form2mail"
+then = "/posts/form2mail/"
 ```
 
 I could soon receive an E-mail like:

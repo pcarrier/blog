@@ -5,9 +5,13 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 async function htmlmin(content) {
   return await minifier.minify(content, {
     useShortDoctype: true,
-    removeComments: true,
     collapseWhitespace: true,
     minifyCSS: true,
+    minifyJS: true,
+    minifyURLs: true,
+    removeAttributeQuotes: true,
+    removeComments: true,
+    removeRedundantAttributes: true,
   });
 }
 

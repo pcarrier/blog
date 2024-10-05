@@ -5,7 +5,7 @@ date: 2024-09-25
 prism: true
 ---
 
-I covered how to install `baze` and introduced `suc` [two days ago](/posts/suc), then `statistik` [yesterday](/posts/statistik). Today, we're looking at `shost`.
+I covered how to install `baze` and introduced `suc` [two days ago](/posts/suc/), then `statistik` [yesterday](/posts/statistik/). Today, we're looking at `shost`.
 
 Looking to resolve DNS names? `bind` ships `host` and `dig`, `ldns` ships `drill`.
 

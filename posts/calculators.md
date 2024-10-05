@@ -3,7 +3,7 @@ title: Decades of calculators
 date: 2024-09-17
 ---
 
-Given how slow [my CASIO PB-700](/posts/pb700) was at plotting graphs, around age 8, my parents upgraded me to the Sharp EL-9400 ([manual](/assets/calculators/el9400guide.pdf)).
+Given how slow [my CASIO PB-700](/posts/pb700/) was at plotting graphs, around age 8, my parents upgraded me to the Sharp EL-9400 ([manual](/assets/calculators/el9400guide.pdf)).
 
 [![Sharp EL-9400](/assets/calculators/el9400.jpg)](/assets/calculators/el9400.jpg)
 

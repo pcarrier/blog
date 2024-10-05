@@ -3,7 +3,7 @@ title: Made 1000 Teekos… Now what?
 date: 2024-09-20
 ---
 
-_After my favourite video games, [Tetris](/posts/tetromino) and [N++](/posts/n++), time to post about my favourite board game._
+_After my favourite video games, [Tetris](/posts/tetromino/) and [N++](/posts/n++/), time to post about my favourite board game._
 
 My first encounter with Teeko was in 2016, running into [its Wikipedia page](https://en.wikipedia.org/wiki/Teeko) and devouring Blake Eskin's [2001 WaPo article](https://pcarrier.com/teeko/archives/text/Eskin-Blake-article.txt).
 

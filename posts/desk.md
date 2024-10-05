@@ -40,4 +40,4 @@ Also pictured are:
 - A Logitech Brio 4K Pro webcam;
 - A ThinkPad keyboard (for the bootloader…).
 
-**Update (2024-09-27):** Added the [SlimBlade Pro](/posts/slimbladepro) trackball to the setup, and documented my music composition gear there.
+**Update (2024-09-27):** Added the [SlimBlade Pro](/posts/slimbladepro/) trackball to the setup, and documented my music composition gear there.

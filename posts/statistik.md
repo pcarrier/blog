@@ -5,7 +5,7 @@ date: 2024-09-24
 prism: true
 ---
 
-I covered how to install `baze` and introduced `suc` [yesterday](/posts/suc). Today, we're looking at `statistik`.
+I covered how to install `baze` and introduced `suc` [yesterday](/posts/suc/). Today, we're looking at `statistik`.
 
 If you have a bunch of numbers and want a quick look at their distribution, `statistik` is the simple command for you.
 

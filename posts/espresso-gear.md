@@ -26,6 +26,6 @@ From left to right then back to front:
 
 Coming soon:
 
-- [Mobile setup](/posts/picopresso);
+- [Mobile setup](/posts/picopresso/);
 - Non-espresso coffee gear;
 - Tea.

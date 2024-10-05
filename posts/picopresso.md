@@ -7,7 +7,7 @@ date: 2024-09-04
 
 Here's my mobile espresso setup, that I use when I'm out and about.
 
-It has nothing on [my main setup](/posts/espresso-gear) but size.
+It has nothing on [my main setup](/posts/espresso-gear/) but size.
 
 - [Picopresso by Wacaco](https://www.wacaco.com/products/picopresso)
 - [1Zpresso J-Max](https://1zpresso.coffee/manual-jmax-en/)

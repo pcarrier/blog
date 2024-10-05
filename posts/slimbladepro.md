@@ -8,6 +8,7 @@ I used a [SlimBlade trackball](https://www.kensington.com/p/products/ergonomic-d
 Ordered its successor, the [SlimBlade Pro](https://www.kensington.com/p/products/electronic-control-solutions/trackball-products/slimblade-pro-trackball/), at the beginning of the week.
 
 It's wireless. DPI is configurable past what I want for my 8K display. Only thing I'm missing is software configurability. In short, I wish it let me:
+
 - Click on the bottom buttons together to trigger a middle click;
 - Click on the top buttons to go backward and forward in browsers;
 - Hold the top-right button and move the ball around to scroll in all directions (horizontal + vertical).
@@ -24,7 +25,7 @@ Back at home today:
 
 [![Desk at home](/assets/slimbladepro/home.avif)](/assets/slimbladepro/home.avif)
 
-Great opportunity to add to the list of hardware from [my desk post](/posts/desk) with items I take out to compose music:
+Great opportunity to add to the list of hardware from [my desk post](/posts/desk/) with items I take out to compose music:
 
 - [Focal Elex headphones](https://www.focal.com/products/elex);
 - [Arturia MiniLab 3](https://www.arturia.com/products/hybrid-synths/minilab-3/overview).

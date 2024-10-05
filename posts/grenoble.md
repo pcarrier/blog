@@ -27,8 +27,8 @@ Big downside of the city: it's [really hot in the summer](https://en.wikipedia.o
 
 ## Recommendations
 
-- [Hono Coffee House](/posts/hono), coffee shop
-- [Neuf Lamen](/posts/neuf-lamen), ramen restaurant
-- [La Rivière des Parfums](/posts/riviere-des-parfums), Vietnamese restaurant
+- [Hono Coffee House](/posts/hono/), coffee shop
+- [Neuf Lamen](/posts/neuf-lamen/), ramen restaurant
+- [La Rivière des Parfums](/posts/riviere-des-parfums/), Vietnamese restaurant
 - [Grenoble.app](https://grenoble.app), my link directory for new residents
 - [Contact me](mailto:pc@rrier.fr)!
