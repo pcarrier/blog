@@ -1,6 +1,19 @@
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import minifier from "html-minifier-terser";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+
+const metadata = {
+  language: "en",
+  title: "daily dose of nothing",
+  subtitle: "subtitles are overrated",
+  description: "descriptions are overrated",
+  base: "https://nothing.pcarrier.com/",
+  author: {
+    name: "Pierre Carrier",
+    email: "pc@rrier.fr",
+  },
+};
 
 async function htmlmin(content) {
   return await minifier.minify(content, {
@@ -30,11 +43,27 @@ export default function (cfg) {
       quality: 60,
     },
   });
+  cfg.addPlugin(feedPlugin, {
+    type: "atom",
+    outputPath: "/feed.xml",
+    collection: {
+      name: "post",
+      limit: 10,
+    },
+    metadata,
+  });
+  cfg.addPlugin(feedPlugin, {
+    type: "json",
+    outputPath: "/feed.json",
+    collection: {
+      name: "post",
+      limit: 10,
+    },
+    metadata,
+  });
   cfg.addPassthroughCopy("xmit.toml");
   cfg.addPassthroughCopy("assets");
   cfg.addFilter("limit", (arr, lim) => arr.slice(0, lim));
-  cfg.addFilter("rfc3339", (date) => new Date(date).toISOString());
-  cfg.addFilter("stringify", (v) => JSON.stringify(v));
   cfg.addFilter(
     "dateDisplay",
     (date) => new Date(date).toISOString().split("T")[0]
@@ -50,9 +79,6 @@ export default function (cfg) {
       return JSON.stringify(JSON.parse(content));
     }
     return content;
-  });
-  cfg.setNunjucksEnvironmentOptions({
-    autoescape: false,
   });
   return {
     dir: {

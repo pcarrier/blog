@@ -3,7 +3,7 @@ title: DAB+ is lovely
 date: 2024-10-06
 ---
 
-After [yesterday's post](/posts/form2mail/) turned from design doc to a complete implementation including features initially planned for later, I'm going to keep it short today.
+After [yesterday's post](/posts/form2mail/) turned from design doc to a complete implementation including features initially planned for further iterations, I'm going to keep it short today.
 
 [![Sony XDR-S61D on my nightstand](/assets/dab.avif)](/assets/dab.avif)
 
