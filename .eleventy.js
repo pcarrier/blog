@@ -1,3 +1,4 @@
+import { IdAttributePlugin } from "@11ty/eleventy";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import minifier from "html-minifier-terser";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
@@ -29,6 +30,7 @@ async function htmlmin(content) {
 }
 
 export default function (cfg) {
+  cfg.addPlugin(IdAttributePlugin);
   cfg.addPlugin(syntaxHighlight);
   cfg.addPlugin(eleventyImageTransformPlugin, {
     formats: ["avif", "jpeg"],
