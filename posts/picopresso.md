@@ -15,3 +15,5 @@ It has nothing on [my main setup](/posts/espresso-gear/) but size.
 Add roasted beans, a scale & a kettle. Compact yet capable.
 
 [![Mobile espresso gear, unpacked, with a banana for scale](/assets/pico/unpacked.avif)](/assets/pico/unpacked.avif)
+
+Of course there are more practical [non-espresso options](/posts/coffee-gear/).
