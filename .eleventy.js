@@ -6,7 +6,7 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 const metadata = {
   language: "en",
-  title: "daily dose of nothing",
+  title: "Daily dose of nothing",
   subtitle: "subtitles are overrated",
   description: "descriptions are overrated",
   base: "https://nothing.pcarrier.com/",
