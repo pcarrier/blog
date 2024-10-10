@@ -9,9 +9,9 @@ Here's my desk, where I spend way too much time. Please pardon the total lack of
 
 Probably the most obvious characteristic is the big display.
 
-At 8K and 65 inches, the [Samsung Neo QLED 8K QN900D](https://www.samsung.com/fr/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-tq65qn900dtxxc/) takes most of the space on my 200⨉50cm desk. While far from perfect, with a surface equivalent to 4⨉4K or 16⨉1080p, it's fantastic for interacting with and keeping an eye on tons of windows at once.
+At 8K and 65 inches, the [Samsung Neo QLED 8K QN900D](https://www.samsung.com/fr/tvs/qled-tv/qn900d-65-inch-neo-qled-8k-tizen-os-smart-tv-tq65qn900dtxxc/) takes most of the space on my 200×50cm desk. While far from perfect, with a surface equivalent to 4×4K or 16×1080p, it's fantastic for interacting with and keeping an eye on tons of windows at once.
 
-The sound system is a pair of [Focal Alpha 80 Evo](https://www.focal.com/products/alpha-80-evo) studio monitors I adore, connected to a [Mackie Mix5](https://mackie.com/en/products/mixers/mix-series/mix5.html) mixing table which has caused me a lot of troubles but does the job of mixing the audio from 2 computers at once.
+The sound system is a pair of [Focal Alpha 80 Evo](https://www.focal.com/products/alpha-80-evo) studio monitors I adore, connected to a [Mackie Mix5](https://mackie.com/en/products/mixers/mix-seris/mix5.html) mixing table which has caused me a lot of troubles but does the job of mixing the audio from 2 computers at once.
 
 [![Computers at my desk](/assets/desk/computers.avif)](/assets/desk/computers.avif)
 
@@ -21,7 +21,7 @@ There are, in fact, 3 computers in total.
 
 - Mostly here and often off, running Linux and Windows 11, `dog`. The “workstation” yet not involved in my job much, it provides a powerful environment for gaming, streaming, music composition, etc. It sports a [7950X3D](https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html), [RTX4090](https://www.nvidia.com/fr-fr/geforce/graphics-cards/40-series/rtx-4090/), plenty of RAM and storage for my needs.
 
-- Always on, headless, `rabbit`. A fairly low-power [Framework](https://frame.work/) mainboard connected over Thunderbolt to 4⨉8TB of SSD storage in a [ThunderBay 4 mini](https://www.owc.com/solutions/thunderbay-4-mini-thunderbolt-3), and the other 2 computers when present. It acts as a NAS, media server, download box, Docker host, and more.
+- Always on, headless, `rabbit`. A fairly low-power [Framework](https://frame.work/) mainboard connected over Thunderbolt to 4×8TB of SSD storage in a [ThunderBay 4 mini](https://www.owc.com/solutions/thunderbay-4-mini-thunderbolt-3), and the other 2 computers when present. It acts as a NAS, media server, download box, Docker host, and more.
 
 [![Inputs on my desk](/assets/desk/inputs.avif)](/assets/desk/inputs.avif)
 
