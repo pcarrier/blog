@@ -11,7 +11,7 @@ So I'm adding a `raidz` of 8×18TB SATA HDDs to the pool, attached through the [
 
 [![The new storage setup](/assets/storage-expansion.avif)](/assets/storage-expansion.avif)
 
-The difference in size between 4×2.5" and 8×3.5" is a bit more intimidating than I expected. I relocated `rabbit` to the corner next to my desk, freeing some space on it.
+The difference in size between 4×2.5” and 8×3.5” is a bit more intimidating than I expected. I relocated `rabbit` to the corner next to my desk, freeing some space on it.
 
 That's 126TB of usable storage added to the 24TB I already have, for a nifty total of 150TB or 136TiB.
 
