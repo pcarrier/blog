@@ -23,7 +23,7 @@ Here is the full description:
 >
 > The rest is symbols. They can be prefixed by `\'`, or delimited by `\"` and `"`.
 >
-> Quoting is preserved by parsers and printers, and meaningful in some circumstances (eg in [STOR](#simple-textual-object-representation-stor), `[` starts a vector but `\'[` does not).
+> Quoting is preserved by parsers and printers, and meaningful in some circumstances (eg in STOR, `[` starts a vector but `\'[` does not).
 >
 > `\` can be used to escape:
 > - `'` single quote

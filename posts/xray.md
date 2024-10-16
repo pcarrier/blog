@@ -15,4 +15,4 @@ We can also pass image coordinates in text. Models might evolve to understand th
 
 The alternative approach I'm suggesting today would be to support extra channels besides the usual red, green, blue, sometimes alpha. This approach is already used on iOS to store depth maps. Here, we'd use them to introduce labels and other visual elements in the image purely additively. I propose calling those “X-ray channels”.
 
-Unfortunately, no vision or multimodal model supports more than RGB images today.
+Unfortunately, no vision or multimodal model supports more than RGB images today. I hope RGB(A)X becomes a thing.
