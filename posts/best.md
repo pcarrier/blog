@@ -1,6 +1,7 @@
 ---
 title: Barely Even Structured Text (BEST)
 date: 2024-10-15
+prism: true
 ---
 
 When implementing a [toy programming runtime](https://formic.id), I tried to implement my “language” as a stack of simple layers.
@@ -8,6 +9,7 @@ When implementing a [toy programming runtime](https://formic.id), I tried to imp
 Today, I'd like to describe the bottom of the stack, Barely Even Structured Text or BEST.
 
 Intended as a lightweight (but not strictly minimal) layer, its design can be summarized in a few choices:
+
 - Only produce a sequence, no structure yet as it can be built on top (token stream not abstract syntax tree);
 - 2 types of tokens: strings and symbols, nothing more (specialization is made atop);
 - Allow for arbitrary bytes everywhere in both, including invalid UTF-8;
@@ -26,9 +28,10 @@ Here is the full description:
 > Quoting is preserved by parsers and printers, and meaningful in some circumstances (eg in STOR, `[` starts a vector but `\'[` does not).
 >
 > `\` can be used to escape:
+>
 > - `'` single quote
 > - `"` double quote
-> - ` ` space
+> - ` ` space
 > - `\` backslash
 > - `n` newline
 > - `r` carriage return
@@ -41,7 +44,7 @@ Here is the full description:
 
 For example, in:
 
-```
+```text
 A 'world \'of "dew"
 ```
 
@@ -49,7 +52,7 @@ A 'world \'of "dew"
 
 Here are 3 strings:
 
-```
+```text
 'A\ single\ string
 "On each line"
 "This one\nis two lines"
@@ -57,7 +60,7 @@ Here are 3 strings:
 
 Single-quoted strings end before any unescaped space, whereas double-quoted strings only end before an unescaped double-quote, so this is a fine string too:
 
-```
+```text
 "A direct line
 break works, so do
 escaped quotes like \"!"
@@ -66,6 +69,7 @@ escaped quotes like \"!"
 [The naïve, probably bug-ridden implementation of parsing and printing](https://github.com/pcarrier/forms/blob/main/src/best.nim) fits in 200 lines of Nim code.
 
 Looking forward to describing the layers above:
+
 - Simple Textual Object Representation (STOR), pretty much a textual [CBOR](https://cbor.io/) with explicitly sized integers;
 - FORM Open Representation Model (FORM), an object model consisting of STOR with cycles;
 - STORM, the STOR Machine, a virtual machine implementing a concatenative model through a data deque, a context deque, and a stream deque, all containing references to FORM values;
