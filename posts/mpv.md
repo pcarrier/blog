@@ -5,7 +5,7 @@ date: 2024-10-17
 prism: true
 ---
 
-[`mpv`](https://mpv.io/), fork of `mplayer2`, fork of `mplayer`, is a fantastic media player.
+[`mpv`](https://mpv.io/), fork of `mplayer2`, fork of `MPlayer`, is a fantastic media player.
 
 I just discovered by accident that it binds `ga` and `gs` to switch audio track and subtitles interactively. What a game changer for me! Good opportunity to point to [the default key bindings](https://github.com/mpv-player/mpv/blob/master/etc/input.conf).
 
