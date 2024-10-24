@@ -13,7 +13,7 @@ It's wireless. DPI is configurable past what I want for my 8K display. Only thin
 - Click on the top buttons to go backward and forward in browsers;
 - Hold the top-right button and move the ball around to scroll in all directions (horizontal + vertical).
 
-Only the last point is missing from their solution, KensingtonWorks. Unfortunately, it's entirely broken in Sequoia, so I'm stuck with the default behaviour. Might try to build my own Mac software at some point.
+Only the last point is missing from their solution, KensingtonWorks. ~~Unfortunately, it's entirely broken in Sequoia, so I'm stuck with the default behaviour. Might try to build my own Mac software at some point.~~ **Update:** [Found what I wanted!](/posts/slimbladepro2/)
 
 That being said, those are only wants, not needs, and the SlimBlade Pro has already replaced the [Logitech MX Ergo](https://www.logitech.com/products/mice/mx-ergo-wireless-trackball-mouse.html) as my input device of choice.
 
