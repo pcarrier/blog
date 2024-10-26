@@ -14,18 +14,19 @@ I cannot resist sharing my config, which requires `brew install molten-vk` on Ma
 ## `mpv.conf`
 
 ```ini
+vo=gpu-next
+hwdec=auto-copy
+hwdec-codecs=all
+profile=gpu-hq
+save-position-on-quit=yes
 alang=eng,en,enUS,en-US,fr,frFR,fr-FR
 slang=eng,en,enUS,en-US,fr,frFR,fr-FR
 cache-secs=60
 embeddedfonts=yes
 hr-seek-framedrop=no
-hwdec-codecs=all
-hwdec=auto-copy
+icc-profile-auto=yes
+target-colorspace-hint=yes
 input-ipc-server=/tmp/mpvsocket
-osd-font-size=16
-osd-font=PragmataPro
-profile=gpu-hq
-save-position-on-quit=yes
 screenshot-format=webp
 screenshot-webp-lossless=yes
 screenshot-tag-colorspace=yes
@@ -33,11 +34,11 @@ screenshot-template="%f-%P-%n"
 sub-auto=fuzzy
 sub-blur=1
 sub-color=1.0/1.0/0.0
+sub-shadow-color=0.0/0.0/0.0
 sub-font-size=16
 sub-font=PragmataPro
-sub-shadow-color=0.0/0.0/0.0
-target-colorspace-hint=yes
-vo=gpu-next
+osd-font-size=16
+osd-font=PragmataPro
 ```
 
 ## `input.conf`
