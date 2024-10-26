@@ -36,6 +36,7 @@ sub-color=1.0/1.0/0.0
 sub-font-size=16
 sub-font=PragmataPro
 sub-shadow-color=0.0/0.0/0.0
+target-colorspace-hint=yes
 video-output-levels=full
 vo=gpu-next
 ```
