@@ -48,10 +48,6 @@ max:   741.0
 
 We see here that those 100,000 requests came from 45,157 unique IPs. A bit over 70% of IPs made only 1 request; at least 90% made 3 or fewer requests. The top 1% of IPs made 18 or more requests, with the top IP making 741.
 
-I occasionally run [public analytics](https://api.ident.me/analytics) on one hour of service. For comparison, here is the latest graph of number of IPs per request count. In my opinion, much harder to interpret:
-
-[![Graph of IPs per request count](https://api.ident.me/analytics/ips_per_req_count.png)](https://api.ident.me/analytics/ips_per_req_count.png)
-
 You might not be surprised to learn that `statistik`'s implementation is trivial:
 
 ```ruby
