@@ -9,7 +9,7 @@ You connect to peers over WebRTC by discovering their address from a list of ann
 
 If we're on the same network it's highly desirable that eg my laptop would connect to my phone through 192.168.0.123. But 192.168.0.123 is dozens of millions of different machines across different networks, and it'd be inconsiderate to attempt connecting to the wrong one. So how do you announce an address unique to this local network?
 
-mDNS! On all desktop OSes + iOS, all browsers announce a randomly generated address like `8daed4b0-14b8-4460-89d0-7139ceefe5d9.local` that is easily made discoverable on the local network through mDNS.
+[Multicast DNS](https://en.wikipedia.org/wiki/Multicast_DNS)! On all desktop OSes + iOS, all modern browsers announce a randomly generated address like `8daed4b0-14b8-4460-89d0-7139ceefe5d9.local` that is easily made discoverable on the local network through mDNS.
 
 This leaves some room for optimization (eg your 10.x.x.x-like corporate network where mDNS won't cross many boundaries), but corporate is happy that their network topology isn't exposed on the Internet, so everybody wins.
 

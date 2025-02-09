@@ -1,12 +1,12 @@
 import { IdAttributePlugin } from "@11ty/eleventy";
-import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
-import minifier from "html-minifier-terser";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import minifier from "html-minifier-terser";
 
 const metadata = {
   language: "en",
-  title: "Daily dose of nothing",
+  title: "Small dose of nothing",
   subtitle: "subtitles are overrated",
   description: "descriptions are overrated",
   base: "https://nothing.pcarrier.com/",

@@ -1,4 +1,4 @@
-# Daily dose of nothing
+# Small dose of nothing
 
 ## Getting started
 
