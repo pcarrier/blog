@@ -9,14 +9,14 @@
     "set-key": "xmit set-key"
   },
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0",
-    "@11ty/eleventy-img": "5.0.0",
-    "@11ty/eleventy-plugin-rss": "2.0.2",
-    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.0",
-    "@xmit.co/xmit": "0.2.11-1",
+    "@11ty/eleventy": "3.1.0",
+    "@11ty/eleventy-img": "6.0.4",
+    "@11ty/eleventy-plugin-rss": "2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.1",
+    "@xmit.co/xmit": "0.3.5-0",
     "html-minifier-terser": "7.2.0",
-    "node-addon-api": "8.1.0",
-    "node-gyp": "10.2.0",
-    "prettier": "3.3.3"
+    "node-addon-api": "8.3.1",
+    "node-gyp": "11.2.0",
+    "prettier": "3.5.3"
   }
 }
