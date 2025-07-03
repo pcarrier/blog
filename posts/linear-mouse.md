@@ -36,8 +36,9 @@ My mice and trackballs are configurable, and I want the OS to respect that confi
 
 In the <cite>Settings</cite> app, open <cite>Bluetooth & devices</cite>, then <cite>Mouse</cite>, and select <cite>Additional mouse settings</cite>. In this window, switch to the <cite>Pointer options</cite> tab, max out the speed and make sure not to <cite>enhance pointer precision</cite>.
 
-
 [![Windows configuration with the fastest pointer speed and no pointer precision enhancement](/assets/linear-mouse/windows.png)](/assets/linear-mouse/windows.png)
+
+**Edit:** [RawAccel](https://rawaccel.net) proved necessary to eliminate a strange acceleration comeback at very high DPIs (experienced at 20,000+ DPI).
 
 ### macOS
 
