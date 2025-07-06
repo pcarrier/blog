@@ -1,6 +1,6 @@
 ---
-title: "rand: pseudorandom pixels"
-date: 2025-07-06
+title: "toys/rand: pseudorandom pixels"
+date: 2025-07-05
 ---
 
 Twin Labs streams browsers in your browser.
