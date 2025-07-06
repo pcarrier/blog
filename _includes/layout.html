@@ -261,6 +261,10 @@
         document
           .querySelector("footer")
           .insertAdjacentHTML("beforeend", ` | ${ttl.toFixed(0)}ms`);
+
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js');
+      }
     </script>
   </body>
 </html>
