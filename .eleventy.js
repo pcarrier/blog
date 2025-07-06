@@ -63,12 +63,11 @@ export default function (cfg) {
     },
     metadata,
   });
-  cfg.addPassthroughCopy("xmit.toml");
-  cfg.addPassthroughCopy("assets");
+  ["assets", "sw.js", "xmit.toml"].forEach((p) => cfg.addPassthroughCopy(p));
   cfg.addFilter("limit", (arr, lim) => arr.slice(0, lim));
   cfg.addFilter(
     "dateDisplay",
-    (date) => new Date(date).toISOString().split("T")[0]
+    (date) => new Date(date).toISOString().split("T")[0],
   );
 
   cfg.addFilter("htmlmin", htmlmin);
