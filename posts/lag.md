@@ -24,4 +24,4 @@ name = "Cross-Origin-Embedder-Policy"
 value = "credentialless"
 ```
 
-My observation is confirmed. I'll avoid the port.
+My observation is confirmed. I'll avoid the port. I've also learnt I do benefit from the 8 kHz setting of my mouse, as even at 3200 DPI with fast & smooth motion, some frames still miss a pointer update.
