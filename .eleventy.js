@@ -63,7 +63,7 @@ export default function (cfg) {
     },
     metadata,
   });
-  ["assets", "sw.js", "xmit.toml"].forEach((p) => cfg.addPassthroughCopy(p));
+  ["assets", "xmit.toml"].forEach((p) => cfg.addPassthroughCopy(p));
   cfg.addFilter("limit", (arr, lim) => arr.slice(0, lim));
   cfg.addFilter(
     "dateDisplay",
