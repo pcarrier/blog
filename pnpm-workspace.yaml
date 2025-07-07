@@ -1,0 +1,3 @@
+onlyBuiltDependencies:
+  - '@xmit.co/xmit'
+  - sharp
