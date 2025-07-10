@@ -1,5 +1,5 @@
 ---
-title: "toys/lag: Jerk Monitor"
+title: "JerkMon: observe your mouse"
 date: 2025-07-06
 prism: true
 ---
