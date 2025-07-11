@@ -9,6 +9,8 @@ The latest result is a program which captures VSync frame timing, mouse events w
 
 Made [WinJerkMon](https://found.as/wl) to observe it in great detail. Unlike [JerkMon](https://found.as/l), its portable counterpart, it can afford to feature histograms.
 
+[![WinJerkMon on my system](/assets/jerkmon/480hz.png)](/assets/jerkmon/480hz.png)
+
 What I've found is that there are at least 3 types of USB3 ports on my workstation:
 
 - Some where pauses exceed 10ms every few seconds,
