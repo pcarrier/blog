@@ -38,8 +38,6 @@ In the <cite>Settings</cite> app, open <cite>Bluetooth & devices</cite>, then <c
 
 [![Windows configuration with the fastest pointer speed and no pointer precision enhancement](/assets/linear-mouse/windows.png)](/assets/linear-mouse/windows.png)
 
-**Edit:** [RawAccel](https://rawaccel.net) proved necessary to eliminate a strange acceleration comeback at very high DPIs (experienced at 20,000+ DPI).
-
 ### macOS
 
 Too bad it requires third-party software, but [LinearMouse.app](https://linearmouse.app) is perfect. I configure it like so:
