@@ -15,6 +15,8 @@ What I've found is that there are at least 3 types of USB3 ports on my workstati
 - Some where pauses exceed 2ms multiple times per second, and 4ms every few seconds;
 - Some where pauses never exceed 1ms.
 
-That's now been confirmed with 2 different mice, the same USB cable, and the same receiver placement. It looks to come down to the PCI-e topology behind the many USB controllers on my computer, something I feel shouldn't matter at those orders of magnitude for throughput and desired latency.
+That's now been confirmed with 2 different mice, the same USB cables (tried a few), and the same receiver placement.
+
+[![UsbTreeView](/assets/jerkmon/UsbTreeView.png)](/assets/jerkmon/UsbTreeView.png)
 
 For frame-perfect inputs at high refresh rates, this seemingly innocuous choice appears critical.
