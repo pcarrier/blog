@@ -1,13 +1,13 @@
 ---
-title: "WinJerkMon: observe your mouse precisely"
+title: "JerkMonPro: observe your mouse precisely"
 date: 2025-07-11
 ---
 
 I wrote [a post about JerkMon](/posts/lag/) a few days ago. I was already a tad obsessed with accurate observations of the behaviour of my pointer. My fixation has only gotten worse since, as I started playing at 480 Hz.
 
-The latest result is a program which captures VSync frame timing, mouse events with the lowest-level available API in Microsoft Windows, and exposes the collected data over WebSocket.
+The latest result is a program which captures VSync frame timing, mouse events through buffered raw inputs in Microsoft Windows, and exposes the collected data over WebSocket.
 
-Made [WinJerkMon](https://found.as/wl) to observe it in great detail. Unlike [JerkMon](https://found.as/l), its portable counterpart, it can afford to feature histograms.
+Made [JerkMonPro](https://found.as/wl) to observe it in great detail. Unlike [JerkMon](https://found.as/l), its portable counterpart, it can afford to feature histograms.
 
 [![WinJerkMon on my system](/assets/jerkmon/480hz.png)](/assets/jerkmon/480hz.png)
 
