@@ -22,3 +22,5 @@ That's now been confirmed with 2 different mice, the same USB cables (tried a fe
 [![UsbTreeView](/assets/jerkmon/UsbTreeView.png)](/assets/jerkmon/UsbTreeView.png)
 
 For frame-perfect inputs at high refresh rates, this seemingly innocuous choice appears critical.
+
+**Edit:** Produced some analysis of USB controllers in [a new post](/posts/usb-controllers/).

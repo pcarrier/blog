@@ -44,3 +44,5 @@ Adding an otherwise empty hub destroyed performance, seemingly limiting updates 
 </a>
 
 Even 125 Hz polling shows outliers over 10ms instead of 8 ms. 120 Hz displays miss updates.
+
+**Edit:** Tested on Linux, results are [in a new post](/posts/linux-usb-controllers/).
