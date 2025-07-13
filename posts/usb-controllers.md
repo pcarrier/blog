@@ -71,6 +71,12 @@ Somehow even better than before. This would be perfectly usable at 1000 Hz. Not 
 <img alt="AMD USB" src="/assets/usb-controllers/f.svg" style="background-color: white;"/>
 </a>
 
-Just wow.
+Look at that sample count. Just wow. And now after disabling memory integrity, tweaking my power plan, and rebooting:
 
-**Edit:** Tested on Linux, results are [in a new post](/posts/linux-usb-controllers/).
+<a href="/assets/usb-controllers/h.svg">
+<img alt="AMD USB" src="/assets/usb-controllers/h.svg" style="background-color: white;"/>
+</a>
+
+This hopefully marks the end of my journey maximizing the performance of my mouse on Microsoft Windows.
+
+**Edit:** Tested on Linux, results are in [a new post](/posts/linux-usb-controllers/).
