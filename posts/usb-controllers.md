@@ -16,7 +16,7 @@ Data was captured for 10 seconds of very fast circles each time, using a Razer D
 ## Onboard USB-A (ASUS ProArt X670E-CREATOR WIFI)
 
 <a href="/assets/usb-controllers/b.svg">
-<img alt="AMD USB" src="/assets/usb-controllers/b.svg" style="background-color: white;"/>
+<img alt="AMD USB-A" src="/assets/usb-controllers/b.svg" style="background-color: white;"/>
 </a>
 
 The longest intervals get close to 2 milliseconds. Depending on when & how the game engine captures input data, jerk is possible at 500 Hz.
@@ -24,7 +24,7 @@ The longest intervals get close to 2 milliseconds. Depending on when & how the g
 ## PCI-e expansion card (GLOTRENDS U3142C)
 
 <a href="/assets/usb-controllers/a.svg">
-<img alt="ASM USB" src="/assets/usb-controllers/a.svg" style="background-color: white;"/>
+<img alt="ASM USB-C" src="/assets/usb-controllers/a.svg" style="background-color: white;"/>
 </a>
 
 More entries are captured, and that the intervals are a lot more consistent. They peak at about 1 millisecond, or half a frame for a 500 Hz display. Each frame gets a fair chance at observing your mouse movements, jerk should be low.
@@ -52,7 +52,7 @@ Cleaned up all unused devices in <cite>Device Manager</cite> (including ones hid
 ## Onboard USB-A (ASUS ProArt X670E-CREATOR WIFI)
 
 <a href="/assets/usb-controllers/g.svg">
-<img alt="AMD USB" src="/assets/usb-controllers/g.svg" style="background-color: white;"/>
+<img alt="AMD USB-A" src="/assets/usb-controllers/g.svg" style="background-color: white;"/>
 </a>
 
 Still not fantastic.
@@ -68,13 +68,13 @@ Somehow even better than before. This would be perfectly usable at 1000 Hz. Not 
 ## Onboard USB-C (ASUS ProArt X670E-CREATOR WIFI)
 
 <a href="/assets/usb-controllers/f.svg">
-<img alt="AMD USB" src="/assets/usb-controllers/f.svg" style="background-color: white;"/>
+<img alt="AMD USB-C" src="/assets/usb-controllers/f.svg" style="background-color: white;"/>
 </a>
 
 Look at that sample count. Just wow. And now after disabling memory integrity, tweaking my power plan, and rebooting:
 
 <a href="/assets/usb-controllers/h.svg">
-<img alt="AMD USB" src="/assets/usb-controllers/h.svg" style="background-color: white;"/>
+<img alt="Best results" src="/assets/usb-controllers/h.svg" style="background-color: white;"/>
 </a>
 
 This hopefully marks the end of my journey maximizing the performance of my mouse on Microsoft Windows.
