@@ -3,7 +3,7 @@ title: "USB controllers matter"
 date: 2025-07-12
 ---
 
-I wrote [a post about WinJerkMon](/posts/lag/) yesterday. I have since built a small command-line client to generate latency graphs for extended periods of mouse updates. Here are the first results.
+I wrote [a post about JerkMonPro](/posts/lag/) yesterday. I have since built a small command-line client to generate latency graphs for extended periods of mouse updates. Here are the first results.
 
 In my quest for the best latency possible, it was suggested to me that I try another USB controller.
 
