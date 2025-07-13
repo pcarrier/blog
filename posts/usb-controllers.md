@@ -29,7 +29,7 @@ The longest intervals get close to 2 milliseconds. Depending on when & how the g
 
 More entries are captured, and that the intervals are a lot more consistent. They peak at about 1 millisecond, or half a frame for a 500 Hz display. Each frame gets a fair chance at observing your mouse movements, jerk should be low.
 
-## Bonus 1: PCI-e expansion card + UGREEN 10Gbps Hub
+## Bonus 1: PCI-e expansion card + 10Gbps hub (UGREEN)
 
 <a href="/assets/usb-controllers/c.svg">
 <img alt="ASM+UGREEN USB" src="/assets/usb-controllers/c.svg" style="background-color: white;"/>
@@ -37,10 +37,10 @@ More entries are captured, and that the intervals are a lot more consistent. The
 
 Adding an otherwise empty hub destroyed performance, seemingly limiting updates to 1 kHz. Enough said.
 
-## Bonus 2: Onboard USB with 5€ mouse
+## Bonus 2: Onboard USB + 5€ mouse
 
 <a href="/assets/usb-controllers/d.svg">
 <img alt="AMD+cheap mouse USB" src="/assets/usb-controllers/d.svg" style="background-color: white;"/>
 </a>
 
-Even 125 Hz polling shows outliers near 9 ms instead of 8 ms. 120 Hz displays miss updates.
+Even 125 Hz polling shows outliers over 10ms instead of 8 ms. 120 Hz displays miss updates.
