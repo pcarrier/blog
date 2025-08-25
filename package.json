@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "find dist -type f -empty -delete && pnpm i && eleventy",
     "deploy": "pnpm run build && xmit nothing.pcarrier.com",
     "set-key": "xmit set-key"
   },
@@ -12,11 +12,11 @@
     "@11ty/eleventy": "3.1.2",
     "@11ty/eleventy-img": "6.0.4",
     "@11ty/eleventy-plugin-rss": "2.0.4",
-    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "5.0.2",
     "@xmit.co/xmit": "0.3.5-0",
     "html-minifier-terser": "7.2.0",
-    "node-addon-api": "8.3.1",
-    "node-gyp": "11.2.0",
-    "prettier": "3.5.3"
+    "node-addon-api": "8.5.0",
+    "node-gyp": "11.4.1",
+    "prettier": "3.6.2"
   }
 }
