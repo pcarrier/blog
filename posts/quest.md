@@ -16,13 +16,13 @@ In short, I was already very happy at my desk, now I'm also satisfied on the roa
 Essential software to achieve my workflow:
 
 - [GlazeWM](https://github.com/glzr-io/glazewm)
-- [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
+- [RayCast](https://www.raycast.com)
 - [WinCompose](https://wincompose.info)
 - [Mouseless](https://mouseless.click)
 - [Surfingkeys](https://github.com/none23/surfingkeys)
 - [Everything](https://www.voidtools.com/support/everything/)
-- [ShareX](https://getsharex.com/)
+- [ShareX](https://getsharex.com)
 - [Synergy](https://symless.com/synergy)
-- [Parsec](https://parsec.app/)
-- [Tailscale](https://tailscale.com/)
+- [Parsec](https://parsec.app)
+- [Tailscale](https://tailscale.com)
 - [NixOS in WSL](https://github.com/nix-community/NixOS-WSL) with [my tools](https://github.com/pcarrier/sys/blob/main/home.nix)
