@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
+    "seed": "xmit download nothing.pcarrier.com dist",
     "build": "find dist -type f -empty -delete && pnpm i && eleventy",
     "deploy": "pnpm run build && xmit nothing.pcarrier.com",
     "set-key": "xmit set-key"

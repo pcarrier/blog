@@ -1,6 +1,6 @@
 ---
 title: Quest for the perfect setup
-date: 2026-08-25
+date: 2025-08-25
 ---
 
 My quest for the perfect hardware setup took a turn and extreme changes took place during this short vacation.
