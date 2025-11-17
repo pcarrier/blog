@@ -8,6 +8,10 @@ name = "Cache-Control"
 value = "public, max-age=3600"
 on = "^/(|.*/)$"
 
+[[headers]]
+name = "Content-Security-Policy"
+value = "frame-ancestors https://pcarrier.com"
+
 [[forms]]
 from = "/contact"
 to = "pc@rrier.fr"
