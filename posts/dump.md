@@ -25,11 +25,7 @@ What a [time sink](https://trakt.tv/users/pcarrier/history) video can be.
 
 ### Random shader I made
 
-<p><iframe
-  loading="lazy"
-  src="https://www.shadertoy.com/embed/3lBXRD?paused=false"
-  allowfullscreen
-></iframe></p>
+[HypnoToad](https://www.shadertoy.com/view/3lBXRD)
 
 ### The puzzle of motivation — Dan Pink
 
