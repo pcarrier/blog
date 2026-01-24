@@ -14,7 +14,7 @@ I needed:
 - [iqoo_13.melf](/assets/iqoo_13.melf) from AYN's Discord
 - [A udev rule to let users access USB devices](https://github.com/pcarrier/sys/commit/33d14d62bdcc8784530fc836d3f7650a74bb4fb7)
 
-After powering the device while pressing volume up and volume down at the same time (display goes black after flashing AYN's logo), I could examine the partition tables in my fish shell with:
+After powering the device while pressing volume up and volume down at the same time (display goes black after flashing AYN's logo), I could examine the partition tables in my `fish` shell with:
 
 ```fish
 for lun in (seq 0 5); echo === $lun ===; edl-ng --loader iqoo_13.melf printgpt --lun $lun; end
@@ -28,10 +28,12 @@ To back up, I ran:
 for lun in (seq 0 5); edl-ng --loader iqoo_13.melf dump-rawprogram --lun $lun $lun/; end
 ```
 
-From there I should be able to mess with the system as much as I want, able to restore it to stock Android whenever needed with:
+From there I can mess with the system as much as I want, and to restore it to stock Android whenever needed with:
 
 ```sh
 for lun in (seq 0 5); edl-ng --loader iqoo_13.melf rawprogram --lun $lun $lun/rawprogram0.xml $lun/patch0.xml; end
 ```
 
 Thanks to gio on the AYN and Rocknix Discord servers for all the help.
+
+In [the next installment](/posts/odin3-abl), we'll switch to a bootloader that supports `systemd-boot`.
