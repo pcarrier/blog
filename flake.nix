@@ -18,6 +18,7 @@
       {
         devShell = pkgs.mkShell {
           buildInputs = with pkgs; [
+            nodejs
             pkg-config
             pnpm
             python3
