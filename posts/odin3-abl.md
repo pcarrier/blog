@@ -1,5 +1,5 @@
 ---
-title: "AYN Odin 3: NixOS SD"
+title: "AYN Odin 3: Rocknix ABL"
 date: 2026-01-25
 prism: true
 ---
